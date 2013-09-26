@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_play_background"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="39dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/tutorial_pause_image"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/game_play_pause"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_music_on_image"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/game_play_music_on"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_boulder_standard"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_standard_boulder"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_boulder_ethereal"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_ethereal_boulder"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_boulder_fire"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_fire_boulder"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_normal_scientist"
+            android:layout_width="32dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_standard_scientist"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_tesla_1"
+            android:layout_width="32dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_tesla"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/tutorial_tesla_2"
+            android:layout_width="32dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_tesla"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tutorial_welcome_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Tutorial Level                 Here we will know each feature of this game"
+        android:visibility="invisible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tutorial_boulder_instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_scientist_instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_tapButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="44dp"
+        android:src="@drawable/tutorial_click_button"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_tapButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="44dp"
+        android:src="@drawable/tutorial_click_button"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_tapButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="44dp"
+        android:src="@drawable/tutorial_click_button"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_tryBoulderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_pauseArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tutorial_pause_instr"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:src="@drawable/tutorial_arrow_west"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_pause_instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@+id/tutorial_soundArrow"
+        android:text="Hello"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_soundArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tutorial_sound_instr"
+        android:layout_alignLeft="@+id/tutorial_pauseArrow"
+        android:src="@drawable/tutorial_arrow_northwest"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_sound_instr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tutorial_welcome_textview"
+        android:layout_alignLeft="@+id/tutorial_pause_instr"
+        android:layout_marginBottom="32dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_boulderArrow"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tutorial_sound_instr"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:src="@drawable/tutorial_arrow_west"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_scientistArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tutorial_tapButton1"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:src="@drawable/tutorial_arrow_southwest"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_normal_zombie_image"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/tutorial_pauseArrow"
+        android:layout_toLeftOf="@+id/tutorial_sound_instr"
+        android:src="@drawable/zombie_standard_walk_down_1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_click_boulder_tapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/tutorial_click_button"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_shown_standard_boulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/boulder_standard_appearance_8"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_start_game_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_play_up_imageView"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tutorial_tapButton1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tutorial_play"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_play_down_imageView"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/tutorial_tapButton1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main_menu_play_button_down"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tutorial_boulder_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_alignTop="@+id/tutorial_soundArrow"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/tutorial_mainMenu_button_up"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tutorial_boulder_play"
+        android:layout_alignRight="@+id/tutorial_tapButton1"
+        android:src="@drawable/tutorial_main_menu_button"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/tutorial_mainMenu_button_down"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tutorial_boulder_play"
+        android:layout_alignRight="@+id/tutorial_tapButton1"
+        android:src="@drawable/tutorial_main_menu_button_down"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/tutorial_different_boulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_alignTop="@+id/tutorial_soundArrow"
+        android:visibility="invisible" />
+    
+    <TextView
+        android:id="@+id/tutorial_workshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tutorial_boulder_instr"
+        android:layout_alignTop="@+id/tutorial_soundArrow"
+        android:visibility="invisible" />
+
+</RelativeLayout>
