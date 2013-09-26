@@ -10,7 +10,7 @@ developers. All the materials are designed by ourselves.
 This project is built in Java Android SDK, which is version 2.2 based. I hope all versions of android 
 phone can run it and have fun.
 
-This is a sketch of our game through so far. Out purpose was to implement a feature that could let player
+This is a final version of our game through so far. One of our purpose was to implement a feature that could let player
 choose three kinds of boulders to complete the next level. However due to the limited time we had, we
 skipped this feature, and used fixed boulder instead.
 
