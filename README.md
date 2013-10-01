@@ -4,7 +4,7 @@ ZombieAttack
 Android Game
 
 
-This is a team project collaborated with other 5 guys, including two graphic designer and three software
+This is a team project collaborated with other 5 guys, including two graphic designer and three other software
 developers. All the materials are right by:
 
 Software Developers: Tom prats, Lavanya Sivakumar, Jinqiu Deng, Yao Huang
