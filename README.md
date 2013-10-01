@@ -5,7 +5,9 @@ Android Game
 
 
 This is a team project collaborated with other 5 guys, including two graphic designer and three software
-developers. All the materials are designed by ourselves.
+developers. All the materials are right by:
+Software Developers: Tom prats, Lavanya Sivakumar, Jinqiu Deng, Yao Huang
+Graphic Designers: Jessica Ruhl, Angela Hsieh
 
 This project is built in Java Android SDK, which is version 2.2 based. I hope all versions of android 
 phone can run it and have fun.
